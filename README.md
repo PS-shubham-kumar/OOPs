@@ -2,7 +2,7 @@
 
 A simple menu-driven Banking Management System implemented using Object-Oriented Programming (OOP) concepts in C++. This project demonstrates inheritance, encapsulation, constructors, STL vectors, and a console-based menu.
 
-## ?? Features
+## Features
 - Add employee account
 - Add customer account
 - Fetch employee details by account number
@@ -11,7 +11,7 @@ A simple menu-driven Banking Management System implemented using Object-Oriented
 - Demonstrates class inheritance and method overriding
 - User-friendly menu-driven interface
 
-## ??? Project Structure
+## Project Structure
 
 ### Base Class: `BankAccount`
 Contains common account-related information:
@@ -43,7 +43,7 @@ Methods:
 - parameterized constructor
 - `displayInfo()` override
 
-## ?? OOP Concepts Used
+## OOP Concepts Used
 1. Inheritance
    - `Employee` and `Customer` inherit from `BankAccount`.
 
@@ -59,11 +59,11 @@ Methods:
 5. STL Vector
    - `std::vector<Employee>` and `std::vector<Customer>` store dynamic lists of records.
 
-## ?? Requirements
+## Requirements
 - C++ compiler supporting C++11 or later
 - Examples: GCC/G++, MinGW, Visual Studio
 
-## ?? How to Compile and Run
+## How to Compile and Run
 
 ### Using g++ on Linux/macOS
 ```bash
@@ -78,7 +78,7 @@ g++ banking_system.cpp -o banking_system.exe
 banking_system.exe
 ```
 
-## ?? Menu Options
+## Menu Options
 ```
 ===== Banking System =====
 1. Add Employee
@@ -88,7 +88,7 @@ banking_system.exe
 5. Exit
 ```
 
-## ?? Sample Execution
+## Sample Execution
 
 ### Add Employee
 ```
@@ -130,14 +130,14 @@ Age : 28
 Address : Hyderabad
 ```
 
-## ?? Current Limitations
+## Current Limitations
 - No permanent storage (file handling or database)
 - `ifscCode` is declared but not fully implemented
 - Duplicate account numbers are allowed
 - No update or delete operations
 - Limited input validation
 
-## ?? Future Enhancements
+## Future Enhancements
 - Add file handling for permanent data storage
 - Implement deposit and withdrawal operations
 - Validate account numbers and input fields
@@ -147,7 +147,7 @@ Address : Hyderabad
 - Build a GUI with Qt or C++/CLI
 - Integrate with a database such as MySQL
 
-## ?? Learning Outcomes
+## Learning Outcomes
 This project helps you understand:
 - Classes and objects
 - Inheritance
@@ -157,8 +157,8 @@ This project helps you understand:
 - Menu-driven program design
 - Basic banking application structure
 
-## ????? Author
+## Author
 Shubham Kumar
 
-## ?? License
+## License
 This project is intended for educational purposes. Feel free to modify and use it for academic practice.
